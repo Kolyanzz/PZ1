@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PZ1</string>
+    <string name="hello">Привет Geekbrains</string>
+    <string name="text">Введите текст</string>
+    <string name="button">Кнопка</string>
+    <string name="checkbox1">Вы принимаете наши условия?</string>
+    <string name="switch1">Переключатель</string>
+    <string name="name">Введите Имя</string>
+    <string name="phone">Введите телефон</string>
+    <string name="number">Введите номер</string>
+    <string name="password">Введите пароль</string>
+    <string name="email">Введите Email</string>
+</resources>
