@@ -3,14 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="30dp">
+    android:padding="@dimen/padding">
 
     <TextView
         android:id="@+id/TextWiew1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello"
-        android:textSize="24sp"/>
+        android:textColor="@color/red"
+        android:textSize="@dimen/hello"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -18,6 +19,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:gravity="center"
             android:hint="@string/text"/>
     </com.google.android.material.textfield.TextInputLayout>
     <Button
@@ -28,13 +31,16 @@
     <Switch
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="@dimen/sw"
         android:text="@string/switch1"/>
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="@dimen/cb"
         android:text="@string/checkbox1"/>
     <ToggleButton
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"/>
 
 </LinearLayout>
