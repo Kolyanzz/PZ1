@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">PZ1</string>
-    <string name="hello">Привет Geekbrains</string>
     <string name="text">Введите текст</string>
     <string name="button">Кнопка</string>
     <string name="checkbox1">Вы принимаете наши условия?</string>
@@ -26,7 +25,7 @@
     <string name="_2">2</string>
     <string name="_3">3</string>
     <string name="ravno">=</string>
-    <string name="procent">%</string>
     <string name="_0">0</string>
     <string name="zapitaya">,</string>
+    <string name="m">-M</string>
 </resources>

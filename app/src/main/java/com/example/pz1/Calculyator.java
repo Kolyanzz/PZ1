@@ -38,7 +38,7 @@ class Calculyator implements Parcelable {
         this.commaAdded = false;
         this.quantitAfterComma = 0;
         setEqualPressed(false);
-        clearSing();
+//        clearSing();
 
     }
 
@@ -136,9 +136,9 @@ class Calculyator implements Parcelable {
                 resetNumbers();
                 setEqualPressed(false);
             }
-        } else {//Пользователь нажал знак вычисления второй раз. Выполним действия равносильные нажатию =
-
-            setEqual();
+//        } else {//Пользователь нажал знак вычисления второй раз. Выполним действия равносильные нажатию =
+//
+//            setEqual();
         }
         this.sign = sign.charAt(0);
     }
