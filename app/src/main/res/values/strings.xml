@@ -28,4 +28,6 @@
     <string name="_0">0</string>
     <string name="zapitaya">,</string>
     <string name="m">-M</string>
+    <string name="the_theme_of_the_day_night">Тема день/ночь</string>
+    <string name="buttonActivity">Перейти на другую активити</string>
 </resources>
